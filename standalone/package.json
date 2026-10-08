@@ -1,0 +1,13 @@
+{
+  "name": "ts7-union-configure-standalone",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "node gen.mjs",
+    "compare": "./run.sh"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "typescript6": "npm:typescript@6.0.3"
+  }
+}

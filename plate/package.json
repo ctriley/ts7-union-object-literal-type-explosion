@@ -1,0 +1,26 @@
+{
+  "name": "ts7-union-configure-plate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compare": "./run.sh"
+  },
+  "dependencies": {
+    "@platejs/basic-nodes": "53.0.0",
+    "@platejs/basic-styles": "53.0.0",
+    "@platejs/code-block": "53.0.0",
+    "@platejs/core": "53.3.14",
+    "@platejs/link": "53.3.5",
+    "@platejs/media": "53.1.4",
+    "@platejs/table": "53.0.9",
+    "platejs": "53.3.14",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "typescript": "7.0.2",
+    "typescript6": "npm:typescript@6.0.3"
+  }
+}

@@ -1,0 +1,1036 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@platejs/basic-nodes':
+        specifier: 53.0.0
+        version: 53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@platejs/basic-styles':
+        specifier: 53.0.0
+        version: 53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@platejs/code-block':
+        specifier: 53.0.0
+        version: 53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@platejs/core':
+        specifier: 53.3.14
+        version: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      '@platejs/link':
+        specifier: 53.3.5
+        version: 53.3.5(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@platejs/media':
+        specifier: 53.1.4
+        version: 53.1.4(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@platejs/table':
+        specifier: 53.0.9
+        version: 53.0.9(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      platejs:
+        specifier: 53.3.14
+        version: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react:
+        specifier: 19.1.0
+        version: 19.1.0
+      react-dom:
+        specifier: 19.1.0
+        version: 19.1.0(react@19.1.0)
+    devDependencies:
+      '@types/react':
+        specifier: 19.1.8
+        version: 19.1.8
+      '@types/react-dom':
+        specifier: 19.1.6
+        version: 19.1.6(@types/react@19.1.8)
+      typescript:
+        specifier: 7.0.2
+        version: 7.0.2
+      typescript6:
+        specifier: npm:typescript@6.0.3
+        version: typescript@6.0.3
+
+packages:
+
+  '@floating-ui/core@1.8.0':
+    resolution: {integrity: sha512-0CIZ5itps/8x7BG8dEIhs53BvCUH2PCoogtakwRTut+Arm58sJooJ0AuZhLw2HJYIR5cMLNPBSS728sPho2khQ==}
+
+  '@floating-ui/dom@1.8.0':
+    resolution: {integrity: sha512-yXSrzeHZBTZadLOlfyhCkJHNeLJnHRnRInwdZ40L7ZiaAtrBwoYlsDrX3v5zB1Utk7CLfzcOVnVVWoXEky7Ceg==}
+
+  '@floating-ui/react-dom@2.1.9':
+    resolution: {integrity: sha512-JDjEFGCpImxDCA7JJKviA0M9+RtmJdj0m/NVU5IMgBK+AmZouAQQ7/+2GLH0GXXY0YMw9oXPB8hKdbPYg5QLYg==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  '@floating-ui/react@0.26.28':
+    resolution: {integrity: sha512-yORQuuAtVpiRjpMhdc0wJj06b9JFjrYF4qp96j++v2NBpbi6SEGF7donUJ3TMieerQ6qVkAv1tgr7L4r5roTqw==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  '@floating-ui/utils@0.2.12':
+    resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
+
+  '@juggle/resize-observer@3.4.0':
+    resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
+
+  '@platejs/basic-nodes@53.0.0':
+    resolution: {integrity: sha512-ZL5ULASsWVTcKfBgIHoloh5aa8ZmFKEFef+j9fN2/CSCElU4nadndv9uxb7gor+RowzCBfxH8cLT9RGV7Z6b6A==}
+    peerDependencies:
+      platejs: '>=53.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/basic-styles@53.0.0':
+    resolution: {integrity: sha512-r7Vg2nKv9ku1QDa0AqTJW0ALaiNv6cnCmwptRFzKAHW5r9QLIRacKT+u97ffVBxCd/8ButxQ6oq22j+q3AKJgg==}
+    peerDependencies:
+      platejs: '>=53.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/code-block@53.0.0':
+    resolution: {integrity: sha512-KOO3wUUVZxgpA8R+pc8PwAGirUtzl233//jHI2H9Icc6blUk0sQWiXTkvCdAvTeZAS+eclNW2ER7KRa+FoiC6w==}
+    peerDependencies:
+      platejs: '>=53.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/core@53.3.14':
+    resolution: {integrity: sha512-83VuifO12si97gyKpu3aA9IoN1AyZ7P3CzUqLq9uTCImAIFvdukZZTuNELNKEs27/47nJ+lWHJcUtFHQtH7Dzw==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/core@53.3.15':
+    resolution: {integrity: sha512-Id9sZUz0h03ljBBS7WAUoRWWxmlK1hhPc9S9UKvbIH1yYnzO1gHwAKCOUoeSyNJNgLgtWtEKXpqQM+J/xWZaRA==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/floating@53.0.0':
+    resolution: {integrity: sha512-malVGWRgpoVNxxBkn+8722KqrleB/rhbXzuToijjymTeD1FRyBbvSP5ANtg1LTRus3ByMUZCn/gbquIe+RXcUQ==}
+    peerDependencies:
+      platejs: '>=53.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/link@53.3.5':
+    resolution: {integrity: sha512-af+T49o7dtNCK2vSagSlwYeyTyowYZPqJV5Py4sW/Tp8sQo3tQM474VkMOmsW4k6Uyf6nRltXqW0TjbEkaLgUA==}
+    peerDependencies:
+      platejs: '>=53.3.5'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/media@53.1.4':
+    resolution: {integrity: sha512-KmiV68QM5YiO52BmqPaDGMvynTBIFrGn3k22FGmOk5hJLETO44weAuZRhSxbQiqQS07PveCAK8ZWJIzmM8yKSg==}
+    peerDependencies:
+      platejs: '>=53.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/resizable@53.0.0':
+    resolution: {integrity: sha512-/Wl8DmjByOTib+wKAcEnE3S3PMcpKcrupCOJvUa+vnn/cqXV3cwWzapVZ3bojF6sFWttMsLprvIGhpS/gpl5FQ==}
+    peerDependencies:
+      platejs: '>=53.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/slate@53.3.10':
+    resolution: {integrity: sha512-VRf6hznFlRrap2S1KSjmzy2p+brxiEGaMckxmzUy/5w19wPlL22xjv4628caqo/AHOgqahV9j049EeS7Z3laCQ==}
+
+  '@platejs/slate@53.3.15':
+    resolution: {integrity: sha512-gYgenSruH87z3zG+Llt//U65kRrLwEtw90hCn+5gfimhaZDi6YxJQ4vOui6Da6XVcgzY4WjwGP9DEmgmIrWjVA==}
+
+  '@platejs/table@53.0.9':
+    resolution: {integrity: sha512-fie96c0AE8bShfog+SA767rbf/1i5YYAxZFndETCNkXxT+nzc0GKaVyEOkSaVBtwq9OBqHfD/t4ITpadbrTa0Q==}
+    peerDependencies:
+      platejs: '>=53.0.7'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@platejs/utils@53.3.15':
+    resolution: {integrity: sha512-mYWOeUrvc8m0N6B6Cca1iYQW8KmLerE2vl+S7t6ciYu8+4iR8/+5SWV1ySMqsas4HFjrXapgZKIbrXIth0RYzg==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@radix-ui/react-compose-refs@1.1.5':
+    resolution: {integrity: sha512-+48PbAAbq3didjJxa+OaWY2ZwgAKsNiRGyeHKszblZMQ+kcpd9pAaT11cMkGEie0vsOi3QdeTE6d5Fe3Gn61kA==}
+    peerDependencies:
+      '@types/react': '*'
+      react: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+
+  '@radix-ui/react-slot@1.4.0':
+    resolution: {integrity: sha512-IuMVHZ+Ah5fkctu3X3qeFrV/ZrBcuWuDTFUUPfS/L5hvoTjzhp/HdWGE14CsQombPdEidsa33HVlYZXi49PZ1Q==}
+    peerDependencies:
+      '@types/react': '*'
+      react: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+
+  '@types/react-dom@19.1.6':
+    resolution: {integrity: sha512-4hOiT/dwO8Ko0gV1m/TJZYk3y0KBnY9vzDh7W+DH17b2HFSOGgdj33dhihPeuy3l0q23+4e+hoXHV6hCC4dCXw==}
+    peerDependencies:
+      '@types/react': ^19.0.0
+
+  '@types/react@19.1.8':
+    resolution: {integrity: sha512-AwAfQ2Wa5bCx9WP8nZL2uMZWod7J7/JSplxbTmBQ5ms6QpqNYm672H0Vu9ZVKVngQ+ii4R/byguVEUZQyeg44g==}
+
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    resolution: {integrity: sha512-gowzar9MwS/aRWp6f3a4KUqzRjAZjOsmGNCM6LcTgXum+dBfgsBVMN+AgvOCCbguXyick6LJhpBszxMebJ8syA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    resolution: {integrity: sha512-SZ9xZInqApNlNGc9s0W1VSsktYSOe9cFqNOIqmN1Gs8SmkjKZYFt017G4VwPxASInODuAdbTW7sXiFUf893RgA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    resolution: {integrity: sha512-W5NH4y/J0plIIS5b2xvTEkU7JFxyqdMAOgf+Ilhl0vHQXKO5dZoxd+C/jEtq56c4F3wk71RB4BMRQ2XdI+bwYQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    resolution: {integrity: sha512-UMGDx5sTpzNw3WiPebH7l90IWfJggEd+egHt/q6p7/Cm3zqoV7VxkGXt+3DxPIw8CcmvAB0j3sVVfbhX+M4Tpw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    resolution: {integrity: sha512-Qh4eU4/y3yDjnfjjyPYihMj5/ODIlmt+Bzu17OI+fiSRDW57QmU5SiN63exPRNJPKUzcc1INa1NXdrJ+MqHjUQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    resolution: {integrity: sha512-gffT3xPz9sR7j/YJExkyPntrI0P2EP9XbOyWzth2/Gs0RstK+90RBcO0ncXoXy/beYll1SXw846Nf2zdnEz0QQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    resolution: {integrity: sha512-uEHck9i8hoAzXPiYRib1O7miOnz23SxIeVl6F4LXox+qov1K35jHcEW6VHKvZI+pyvl7fZEP4MCU5LYvIq1GuQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    resolution: {integrity: sha512-R4KvAMnE43W5Qeqb0Ly56O3mWMWIAgsMyz36DCaycd5nbg/9kzm0liw3JocfRqyJY0KPmzFjbswozXyW0DnIYA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    resolution: {integrity: sha512-DORx5b3sd/4S7eayxm4FQv+A7CrkUIGRaHiwI8oiHTAI1fAPWhF4J0vAlkC8biAlHSVVwxMQ3tjZ2/DVbnQiiA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    resolution: {integrity: sha512-wf0jqEDOjrPRnKwYRyyJDRo11KMbvMFrU+q4zqKyChODBzvlkbhNQfKvLxQCcwTpdDaXSHZTVuh0JoCrKCUMHQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    resolution: {integrity: sha512-IkwJc3L7yhytWd/ewjyxNDfOmswCm9GWMJT/ue/dU4aZNbwZeYAetq42VyLmsmSjvoX7z74X6ZaYCtzAr0EuGw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    resolution: {integrity: sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-+polYF4MF04aPpO5FTkHran9yUQDSXqy5GiSDKpsll5jy3l3+g9QLhpf39T+ePtefhXLOGrLl0QIjkQP6VnelA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    resolution: {integrity: sha512-8YIT0EHM/3dq10ZOVF/A7pc/YSMtbcecct4rWtexrnSCHOPcpC2KTLXfTCR6vDpnSiY12heNb1GiN/wu+T/FyA==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    resolution: {integrity: sha512-APT8+ClYnuYm1u9+kgGXoMj2VzWzcymwh2gNSQVySHfkRDGOTVkoWLjCmOQSaO+PoqQ57B0flRp9SA+7GnnkzQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    resolution: {integrity: sha512-yX7s+Q0Dln0Dt9tEzZsAjXXR/+ytBM7AlglaqyeMPxQszJ1JhlJdZ6jLA+IzldHtflX81em7lDao1xXu+aRRkg==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    resolution: {integrity: sha512-dLJDGaLZ1D4HPQn62u1n8mBDkJREwMsAkCdkwd4Ieqw+x3TUyTsqY0YiBCtE6H6OzzgGk3iuZ3vFWRS+E8/d1g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    resolution: {integrity: sha512-Gyl1Vy6OsWesLzmq+EP0Fb7b4Nid5232AvcA2SFcdYreldpNtYFFofPjnt62y9hQy7VTaZp65ICJjuAQRaVcIQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    resolution: {integrity: sha512-0BQ3HkAHHlKLSp1qRvf3SUhGpGsDuhB/jgFw75guyqbxJqEaS0Cw/VFO8i2nHglJUzQCRtMMR/IBAKE3ETMC4g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@udecode/react-hotkeys@52.0.11':
+    resolution: {integrity: sha512-MwdQlfTZhrP0O+BazuNgY9g2qJSZAB05ykdVCdWmBsjv5VQvQ3R9RkXLUMGD20TqUR62iT/Phb/ca8toxiCm0w==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@udecode/react-utils@52.3.4':
+    resolution: {integrity: sha512-qN95XzH6OlzJ9UjWVhvOuLJoDrFwhBOk2itYAmSxsfdMFxF3A+SzYes4gj05Udv2kVZsRd3eAgvn/Znd9EYmJw==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  '@udecode/utils@52.3.4':
+    resolution: {integrity: sha512-I1l2FL+FacNitwSgOA3Gh/PoyP1FS7t5bmEURxClqKA2/1rtdovZ9O61qRYN9mdABTJBTyn5BxKDlwp98QvqlQ==}
+
+  clsx@2.1.1:
+    resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
+    engines: {node: '>=6'}
+
+  compute-scroll-into-view@3.1.1:
+    resolution: {integrity: sha512-VRhuHOLoKYOy4UbilLbUzbYg93XLjv2PncJC50EuTWPA3gaja1UjBsUP/D/9/juV3vQFr6XBEzn9KCAHdUvOHw==}
+
+  csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  dequal@2.0.3:
+    resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
+    engines: {node: '>=6'}
+
+  direction@1.0.4:
+    resolution: {integrity: sha512-GYqKi1aH7PJXxdhTeZBFrg8vUBeKXi+cNprXsC1kpJcbcVnV9wBsrOu1cQEdG0WeQwlfHiy3XvnKfIrJ2R0NzQ==}
+    hasBin: true
+
+  immer@10.2.0:
+    resolution: {integrity: sha512-d/+XTN3zfODyjr89gM3mPq1WNX2B8pYsu7eORitdwyA2sBubnTl3laYlBk4sXY5FUa5qTZGBDPJICVbvqzjlbw==}
+
+  is-hotkey@0.2.0:
+    resolution: {integrity: sha512-UknnZK4RakDmTgz4PI1wIph5yxSs/mvChWs9ifnlXsKuXgWmOkY/hAE0H/k2MIqH0RlRye0i1oC07MCRSD28Mw==}
+
+  is-plain-object@5.1.0:
+    resolution: {integrity: sha512-bUi/yjmtKYcRVUtWRGr0UA6xEFh2I6zWUwMrUXB3s7bmYCaZ8a+0ZsTRkrawh/mzlSD1Y0Ph8bp/U+TvBpWDNw==}
+    engines: {node: '>=0.10.0'}
+
+  jotai-optics@0.4.0:
+    resolution: {integrity: sha512-osbEt9AgS55hC4YTZDew2urXKZkaiLmLqkTS/wfW5/l0ib8bmmQ7kBXSFaosV6jDDWSp00IipITcJARFHdp42g==}
+    peerDependencies:
+      jotai: '>=2.0.0'
+      optics-ts: '>=2.0.0'
+
+  jotai-x@2.3.4:
+    resolution: {integrity: sha512-FirSJ2ZwJtWXpg1EP5iTZdXZE4ilXUvHnMR6DqvSfUuDADl2LNEvFBjdenyxmUdE5Fqru6qLrArw2MMRAFFIdA==}
+    peerDependencies:
+      '@types/react': '>=17.0.0'
+      jotai: '>=2.0.0'
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+
+  jotai@2.8.4:
+    resolution: {integrity: sha512-f6jwjhBJcDtpeauT2xH01gnqadKEySwwt1qNBLvAXcnojkmb76EdqRt05Ym8IamfHGAQz2qMKAwftnyjeSoHAA==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@types/react': '>=17.0.0'
+      react: '>=17.0.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      react:
+        optional: true
+
+  lodash.mapvalues@4.6.0:
+    resolution: {integrity: sha512-JPFqXFeZQ7BfS00H58kClY7SPVeHertPE0lNuCyZ26/XlN8TvakYD7b9bGyNmXbT/D3BbtPAAmq90gPWqLkxlQ==}
+
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
+
+  mutative@1.1.0:
+    resolution: {integrity: sha512-2PJADREjOusk3iJkD3rXV2YjAxTuaLxdfqtqTEt6vcY07LtEBR1seHuBHXWEIuscqRDGvbauYPs+A4Rj/KTczQ==}
+    engines: {node: '>=14.0'}
+
+  nanoid@5.1.16:
+    resolution: {integrity: sha512-kVrnsrJqMR8+oLJnGEmSWw9BivK5mt7H3FZatVRjrc5wGqFYuBxX1yG7+A7Gi5AefkX6t/oCkizcQgpu0cY1dQ==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
+  optics-ts@2.4.1:
+    resolution: {integrity: sha512-HaYzMHvC80r7U/LqAd4hQyopDezC60PO2qF5GuIwALut2cl5rK1VWHsqTp0oqoJJWjiv6uXKqsO+Q2OO0C3MmQ==}
+
+  platejs@53.3.14:
+    resolution: {integrity: sha512-i4snmz0pJm2fJQDi3IEbCVkh+EVtXexJul0Cafo3XLgwMz7YUx1avbQJXvO+4Fa03nUg4u+Ac8a2IaP0SDD9ZA==}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+
+  proxy-compare@2.6.0:
+    resolution: {integrity: sha512-8xuCeM3l8yqdmbPoYeLbrAXCBWu19XEYc5/F28f5qOaoAIMyfmBUkl5axiK+x9olUvRlcekvnm98AP9RDngOIw==}
+
+  react-compiler-runtime@1.0.0:
+    resolution: {integrity: sha512-rRfjYv66HlG8896yPUDONgKzG5BxZD1nV9U6rkm+7VCuvQc903C4MjcoZR4zPw53IKSOX9wMQVpA1IAbRtzQ7w==}
+    peerDependencies:
+      react: ^17.0.0 || ^18.0.0 || ^19.0.0 || ^0.0.0-experimental
+
+  react-dom@19.1.0:
+    resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
+    peerDependencies:
+      react: ^19.1.0
+
+  react-tracked@1.7.14:
+    resolution: {integrity: sha512-6UMlgQeRAGA+uyYzuQGm7kZB6ZQYFhc7sntgP7Oxwwd6M0Ud/POyb4K3QWT1eXvoifSa80nrAWnXWFGpOvbwkw==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '*'
+      react-native: '*'
+      scheduler: '>=0.19.0'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+
+  react@19.1.0:
+    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
+    engines: {node: '>=0.10.0'}
+
+  scheduler@0.26.0:
+    resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
+
+  scroll-into-view-if-needed@3.1.0:
+    resolution: {integrity: sha512-49oNpRjWRvnU8NyGVmUaYG4jtTkNonFZI86MmGRDqBphEK2EXT9gdEUoQPZhuBM8yWHxCWbobltqYO5M4XrUvQ==}
+
+  slate-dom@0.126.0:
+    resolution: {integrity: sha512-FdRlaKh0xksnymiRiv8/8c6dYhybwTg1QJIjmvEyeOUKHfdJI55YA4gGKv4vQj4ZKklau2aHY6uX/npJu5jYMA==}
+    peerDependencies:
+      slate: '>=0.121.0'
+
+  slate-hyperscript@0.125.0:
+    resolution: {integrity: sha512-tH6AYvTrTnSdUo+L5cUvqcHRzQ3muEkcSEN7APM9NtEdWk9L7lqEbmpyeKfv7oyzCUW2WbR/lPhlnOSu8/jUcA==}
+    peerDependencies:
+      slate: '>=0.114.3'
+
+  slate-hyperscript@0.127.0:
+    resolution: {integrity: sha512-siQu4q4irgKKIpPcFz4xuzLTxzfdQ00MfPAg+NFOEBwUcz2ybvlRgozd+J3CqonZgpzPR2VID3LsQyqJ0GgQpQ==}
+    peerDependencies:
+      slate: '>=0.114.3'
+
+  slate-react@0.126.4:
+    resolution: {integrity: sha512-uxEd6CUNI8QXrNvDE0WV8Ci7cTHq9gqB/j9l4VrS3wf0LdKadhtwGg+YOFXwjm4KXZWHw368z08nfE7v5Cx6Jw==}
+    peerDependencies:
+      react: '>=18.2.0'
+      react-dom: '>=18.2.0'
+      slate: '>=0.121.0'
+      slate-dom: '>=0.119.1'
+
+  slate-react@0.127.1:
+    resolution: {integrity: sha512-ZiLJEEfKeAuRCOK7M7NAEA/lwhoCecikDWMQj6zbOJCKmZtIv4+7wdwmB2w3gZfrjVNmZWKbaP4zHORILVvc5g==}
+    peerDependencies:
+      '@types/lodash': ^4.14.0
+      '@types/react': '>=18.0.0'
+      react: '>=18.2.0'
+      react-dom: '>=18.2.0'
+      slate: '>=0.121.0'
+      slate-dom: '>=0.119.1'
+    peerDependenciesMeta:
+      '@types/lodash':
+        optional: true
+      '@types/react':
+        optional: true
+
+  slate@0.126.2:
+    resolution: {integrity: sha512-38C8GU9awiEbroZm+DzXEFUWKptb1QV9xcgcUjseas4PtqQdBnEPITocosYzFHXEVrlkafjZEv8KH8pjhe0esQ==}
+
+  tabbable@6.5.0:
+    resolution: {integrity: sha512-wieBHXygIm7OyQOu5hQlkk62/WyCFYGlWg7L6/ZCUZwx0o398Zkn4pVmMyfYhfMG8kGrj/Krt8eIk6UKC6VzwA==}
+
+  tiny-invariant@1.3.1:
+    resolution: {integrity: sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==}
+
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  typescript@7.0.2:
+    resolution: {integrity: sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==}
+    engines: {node: '>=16.20.0'}
+    hasBin: true
+
+  use-context-selector@1.4.4:
+    resolution: {integrity: sha512-pS790zwGxxe59GoBha3QYOwk8AFGp4DN6DOtH+eoqVmgBBRXVx4IlPDhJmmMiNQAgUaLlP+58aqRC3A4rdaSjg==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '*'
+      react-native: '*'
+      scheduler: '>=0.19.0'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+
+  use-deep-compare@1.3.0:
+    resolution: {integrity: sha512-94iG+dEdEP/Sl3WWde+w9StIunlV8Dgj+vkt5wTwMoFQLaijiEZSXXy8KtcStpmEDtIptRJiNeD4ACTtVvnIKA==}
+    peerDependencies:
+      react: '>=16.8.0'
+
+  use-sync-external-store@1.4.0:
+    resolution: {integrity: sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  zustand-x@6.2.1:
+    resolution: {integrity: sha512-y3nQMQNx3BORY95vpuodJvh/8AqQu++S3q6mJYBSo1J0Q168Sy+FatqER658YESDqv2bwviXcIT3bgl/Ip6M5g==}
+    peerDependencies:
+      zustand: '>=5.0.2'
+
+  zustand@5.0.15:
+    resolution: {integrity: sha512-MpSEjRiBkA9crSYeOUH32rJC7SVqAbm0Fqcqge/bUi2PPoLcBWKOsG+C8mevmpr8TwXHBVkChbbJiyvkE+i/3A==}
+    engines: {node: '>=12.20.0'}
+    peerDependencies:
+      '@types/react': '>=18.0.0'
+      immer: '>=9.0.6'
+      react: '>=18.0.0'
+      use-sync-external-store: '>=1.2.0'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      immer:
+        optional: true
+      react:
+        optional: true
+      use-sync-external-store:
+        optional: true
+
+snapshots:
+
+  '@floating-ui/core@1.8.0':
+    dependencies:
+      '@floating-ui/utils': 0.2.12
+
+  '@floating-ui/dom@1.8.0':
+    dependencies:
+      '@floating-ui/core': 1.8.0
+      '@floating-ui/utils': 0.2.12
+
+  '@floating-ui/react-dom@2.1.9(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@floating-ui/dom': 1.8.0
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@floating-ui/react@0.26.28(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@floating-ui/react-dom': 2.1.9(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@floating-ui/utils': 0.2.12
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      tabbable: 6.5.0
+
+  '@floating-ui/utils@0.2.12': {}
+
+  '@juggle/resize-observer@3.4.0': {}
+
+  '@platejs/basic-nodes@53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/basic-styles@53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/code-block@53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/core@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))':
+    dependencies:
+      '@platejs/slate': 53.3.10
+      '@udecode/react-hotkeys': 52.0.11(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/react-utils': 52.3.4(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/utils': 52.3.4
+      clsx: 2.1.1
+      is-hotkey: 0.2.0
+      jotai: 2.8.4(@types/react@19.1.8)(react@19.1.0)
+      jotai-optics: 0.4.0(jotai@2.8.4(@types/react@19.1.8)(react@19.1.0))(optics-ts@2.4.1)
+      jotai-x: 2.3.4(@types/react@19.1.8)(jotai@2.8.4(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
+      lodash: 4.18.1
+      nanoid: 5.1.16
+      optics-ts: 2.4.1
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+      slate: 0.126.2
+      slate-dom: 0.126.0(slate@0.126.2)
+      slate-hyperscript: 0.125.0(slate@0.126.2)
+      slate-react: 0.126.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(slate-dom@0.126.0(slate@0.126.2))(slate@0.126.2)
+      use-deep-compare: 1.3.0(react@19.1.0)
+      zustand: 5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      zustand-x: 6.2.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(zustand@5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0)))
+    transitivePeerDependencies:
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
+  '@platejs/core@53.3.15(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))':
+    dependencies:
+      '@platejs/slate': 53.3.15
+      '@udecode/react-hotkeys': 52.0.11(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/react-utils': 52.3.4(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/utils': 52.3.4
+      clsx: 2.1.1
+      is-hotkey: 0.2.0
+      jotai: 2.8.4(@types/react@19.1.8)(react@19.1.0)
+      jotai-optics: 0.4.0(jotai@2.8.4(@types/react@19.1.8)(react@19.1.0))(optics-ts@2.4.1)
+      jotai-x: 2.3.4(@types/react@19.1.8)(jotai@2.8.4(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)
+      lodash: 4.18.1
+      nanoid: 5.1.16
+      optics-ts: 2.4.1
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+      slate: 0.126.2
+      slate-dom: 0.126.0(slate@0.126.2)
+      slate-hyperscript: 0.127.0(slate@0.126.2)
+      slate-react: 0.127.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(slate-dom@0.126.0(slate@0.126.2))(slate@0.126.2)
+      use-deep-compare: 1.3.0(react@19.1.0)
+      zustand: 5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      zustand-x: 6.2.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(zustand@5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0)))
+    transitivePeerDependencies:
+      - '@types/lodash'
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
+  '@platejs/floating@53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@floating-ui/core': 1.8.0
+      '@floating-ui/react': 0.26.28(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/link@53.3.5(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@platejs/floating': 53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/media@53.1.4(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/resizable@53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/slate@53.3.10':
+    dependencies:
+      '@udecode/utils': 52.3.4
+      is-plain-object: 5.1.0
+      lodash: 4.18.1
+      scroll-into-view-if-needed: 3.1.0
+      slate: 0.126.2
+      slate-dom: 0.126.0(slate@0.126.2)
+
+  '@platejs/slate@53.3.15':
+    dependencies:
+      '@udecode/utils': 52.3.4
+      is-plain-object: 5.1.0
+      lodash: 4.18.1
+      scroll-into-view-if-needed: 3.1.0
+      slate: 0.126.2
+      slate-dom: 0.126.0(slate@0.126.2)
+
+  '@platejs/table@53.0.9(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@platejs/resizable': 53.0.0(platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      lodash: 4.18.1
+      platejs: 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@platejs/utils@53.3.15(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))':
+    dependencies:
+      '@platejs/core': 53.3.15(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      '@platejs/slate': 53.3.15
+      '@udecode/react-utils': 52.3.4(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/utils': 52.3.4
+      clsx: 2.1.1
+      lodash: 4.18.1
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+    transitivePeerDependencies:
+      - '@types/lodash'
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
+  '@radix-ui/react-compose-refs@1.1.5(@types/react@19.1.8)(react@19.1.0)':
+    dependencies:
+      react: 19.1.0
+    optionalDependencies:
+      '@types/react': 19.1.8
+
+  '@radix-ui/react-slot@1.4.0(@types/react@19.1.8)(react@19.1.0)':
+    dependencies:
+      '@radix-ui/react-compose-refs': 1.1.5(@types/react@19.1.8)(react@19.1.0)
+      react: 19.1.0
+    optionalDependencies:
+      '@types/react': 19.1.8
+
+  '@types/react-dom@19.1.6(@types/react@19.1.8)':
+    dependencies:
+      '@types/react': 19.1.8
+
+  '@types/react@19.1.8':
+    dependencies:
+      csstype: 3.2.3
+
+  '@typescript/typescript-aix-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-darwin-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-freebsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-arm@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-loong64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-mips64el@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-ppc64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-riscv64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-s390x@7.0.2':
+    optional: true
+
+  '@typescript/typescript-linux-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-netbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-openbsd-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-sunos-x64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-arm64@7.0.2':
+    optional: true
+
+  '@typescript/typescript-win32-x64@7.0.2':
+    optional: true
+
+  '@udecode/react-hotkeys@52.0.11(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+
+  '@udecode/react-utils@52.3.4(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@radix-ui/react-slot': 1.4.0(@types/react@19.1.8)(react@19.1.0)
+      '@udecode/utils': 52.3.4
+      clsx: 2.1.1
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@udecode/utils@52.3.4': {}
+
+  clsx@2.1.1: {}
+
+  compute-scroll-into-view@3.1.1: {}
+
+  csstype@3.2.3: {}
+
+  dequal@2.0.3: {}
+
+  direction@1.0.4: {}
+
+  immer@10.2.0: {}
+
+  is-hotkey@0.2.0: {}
+
+  is-plain-object@5.1.0: {}
+
+  jotai-optics@0.4.0(jotai@2.8.4(@types/react@19.1.8)(react@19.1.0))(optics-ts@2.4.1):
+    dependencies:
+      jotai: 2.8.4(@types/react@19.1.8)(react@19.1.0)
+      optics-ts: 2.4.1
+
+  jotai-x@2.3.4(@types/react@19.1.8)(jotai@2.8.4(@types/react@19.1.8)(react@19.1.0))(react@19.1.0):
+    dependencies:
+      jotai: 2.8.4(@types/react@19.1.8)(react@19.1.0)
+    optionalDependencies:
+      '@types/react': 19.1.8
+      react: 19.1.0
+
+  jotai@2.8.4(@types/react@19.1.8)(react@19.1.0):
+    optionalDependencies:
+      '@types/react': 19.1.8
+      react: 19.1.0
+
+  lodash.mapvalues@4.6.0: {}
+
+  lodash@4.18.1: {}
+
+  mutative@1.1.0: {}
+
+  nanoid@5.1.16: {}
+
+  optics-ts@2.4.1: {}
+
+  platejs@53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0)):
+    dependencies:
+      '@platejs/core': 53.3.14(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      '@platejs/slate': 53.3.15
+      '@platejs/utils': 53.3.15(@types/react@19.1.8)(immer@10.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(use-sync-external-store@1.4.0(react@19.1.0))
+      '@udecode/react-hotkeys': 52.0.11(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/react-utils': 52.3.4(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@udecode/utils': 52.3.4
+      react: 19.1.0
+      react-compiler-runtime: 1.0.0(react@19.1.0)
+      react-dom: 19.1.0(react@19.1.0)
+    transitivePeerDependencies:
+      - '@types/lodash'
+      - '@types/react'
+      - immer
+      - react-native
+      - scheduler
+      - use-sync-external-store
+
+  proxy-compare@2.6.0: {}
+
+  react-compiler-runtime@1.0.0(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+
+  react-dom@19.1.0(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+      scheduler: 0.26.0
+
+  react-tracked@1.7.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0):
+    dependencies:
+      proxy-compare: 2.6.0
+      react: 19.1.0
+      scheduler: 0.26.0
+      use-context-selector: 1.4.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)
+    optionalDependencies:
+      react-dom: 19.1.0(react@19.1.0)
+
+  react@19.1.0: {}
+
+  scheduler@0.26.0: {}
+
+  scroll-into-view-if-needed@3.1.0:
+    dependencies:
+      compute-scroll-into-view: 3.1.1
+
+  slate-dom@0.126.0(slate@0.126.2):
+    dependencies:
+      '@juggle/resize-observer': 3.4.0
+      direction: 1.0.4
+      is-hotkey: 0.2.0
+      is-plain-object: 5.1.0
+      lodash: 4.18.1
+      scroll-into-view-if-needed: 3.1.0
+      slate: 0.126.2
+      tiny-invariant: 1.3.1
+
+  slate-hyperscript@0.125.0(slate@0.126.2):
+    dependencies:
+      slate: 0.126.2
+
+  slate-hyperscript@0.127.0(slate@0.126.2):
+    dependencies:
+      slate: 0.126.2
+
+  slate-react@0.126.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(slate-dom@0.126.0(slate@0.126.2))(slate@0.126.2):
+    dependencies:
+      '@juggle/resize-observer': 3.4.0
+      direction: 1.0.4
+      is-hotkey: 0.2.0
+      lodash: 4.18.1
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      scroll-into-view-if-needed: 3.1.0
+      slate: 0.126.2
+      slate-dom: 0.126.0(slate@0.126.2)
+      tiny-invariant: 1.3.1
+
+  slate-react@0.127.1(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(slate-dom@0.126.0(slate@0.126.2))(slate@0.126.2):
+    dependencies:
+      '@juggle/resize-observer': 3.4.0
+      direction: 1.0.4
+      is-hotkey: 0.2.0
+      lodash: 4.18.1
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+      scroll-into-view-if-needed: 3.1.0
+      slate: 0.126.2
+      slate-dom: 0.126.0(slate@0.126.2)
+      tiny-invariant: 1.3.1
+    optionalDependencies:
+      '@types/react': 19.1.8
+
+  slate@0.126.2: {}
+
+  tabbable@6.5.0: {}
+
+  tiny-invariant@1.3.1: {}
+
+  typescript@6.0.3: {}
+
+  typescript@7.0.2:
+    optionalDependencies:
+      '@typescript/typescript-aix-ppc64': 7.0.2
+      '@typescript/typescript-darwin-arm64': 7.0.2
+      '@typescript/typescript-darwin-x64': 7.0.2
+      '@typescript/typescript-freebsd-arm64': 7.0.2
+      '@typescript/typescript-freebsd-x64': 7.0.2
+      '@typescript/typescript-linux-arm': 7.0.2
+      '@typescript/typescript-linux-arm64': 7.0.2
+      '@typescript/typescript-linux-loong64': 7.0.2
+      '@typescript/typescript-linux-mips64el': 7.0.2
+      '@typescript/typescript-linux-ppc64': 7.0.2
+      '@typescript/typescript-linux-riscv64': 7.0.2
+      '@typescript/typescript-linux-s390x': 7.0.2
+      '@typescript/typescript-linux-x64': 7.0.2
+      '@typescript/typescript-netbsd-arm64': 7.0.2
+      '@typescript/typescript-netbsd-x64': 7.0.2
+      '@typescript/typescript-openbsd-arm64': 7.0.2
+      '@typescript/typescript-openbsd-x64': 7.0.2
+      '@typescript/typescript-sunos-x64': 7.0.2
+      '@typescript/typescript-win32-arm64': 7.0.2
+      '@typescript/typescript-win32-x64': 7.0.2
+
+  use-context-selector@1.4.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0):
+    dependencies:
+      react: 19.1.0
+      scheduler: 0.26.0
+    optionalDependencies:
+      react-dom: 19.1.0(react@19.1.0)
+
+  use-deep-compare@1.3.0(react@19.1.0):
+    dependencies:
+      dequal: 2.0.3
+      react: 19.1.0
+
+  use-sync-external-store@1.4.0(react@19.1.0):
+    dependencies:
+      react: 19.1.0
+
+  zustand-x@6.2.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)(zustand@5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0))):
+    dependencies:
+      immer: 10.2.0
+      lodash.mapvalues: 4.6.0
+      mutative: 1.1.0
+      react-tracked: 1.7.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(scheduler@0.26.0)
+      use-sync-external-store: 1.4.0(react@19.1.0)
+      zustand: 5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0))
+    transitivePeerDependencies:
+      - react
+      - react-dom
+      - react-native
+      - scheduler
+
+  zustand@5.0.15(@types/react@19.1.8)(immer@10.2.0)(react@19.1.0)(use-sync-external-store@1.4.0(react@19.1.0)):
+    optionalDependencies:
+      '@types/react': 19.1.8
+      immer: 10.2.0
+      react: 19.1.0
+      use-sync-external-store: 1.4.0(react@19.1.0)
